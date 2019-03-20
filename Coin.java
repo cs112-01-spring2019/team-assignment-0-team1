@@ -25,15 +25,6 @@ public class Coin{
    		return false;
    	}
    }
-   public String toString(){
-   	String headsortails;
-   	if (tossCoin==TAILS){
-   		headsortails = "tails";
-   	}
-   	else {
-   		headsortails="heads";
-   	}
-   	return headsortails;
-   }
+
 }
 	
