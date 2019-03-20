@@ -13,7 +13,7 @@ public class DicePair{
 		dice2 = new Die();
 	}
 
-	public int Roll()
+	public int roll()
 	{
 		dice1.roll();
 		dice2.roll();
@@ -34,6 +34,12 @@ public class DicePair{
 	public int getTotal()
 	{
 		return total;
+	}
+
+
+	public void setTotal(int num)
+	{
+		total = num;
 	}
 
 
