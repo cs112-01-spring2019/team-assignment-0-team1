@@ -42,6 +42,16 @@ public class DicePair{
 		total = num;
 	}
 
+	public void setDice1(int num)
+	{
+		dice1.setFaceValue(num);
+	}
+
+	public void setDice2(int num)
+	{
+		dice2.setFaceValue(num);
+	}
+
 
 	public String toString(){
 		String totalString = Integer.toString(total);
