@@ -48,6 +48,16 @@ public class Player
 		this.points=z;
 	}
 
+	public void won()
+	{
+		wins += 1;
+	}
+
+	public void lost()
+	{
+		lose += 1;
+	}
+
 	public String toString()
 	{
 		return( "Player Name: " + this.getName() + "\n Number of Wins: " + this.getWins()+"\n Number of Loses: "
